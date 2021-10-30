@@ -11,7 +11,8 @@ ruby git-emails.rb <GitHub username>
 
 This should return something like this:
 ```ruby
-{"foo@bar.com"=>"Foo Bar",
+{
+ "foo@bar.com"=>"Foo Bar",
  "foobar@gmail.com"=>"Foo Bar",
 }
 ```

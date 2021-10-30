@@ -16,3 +16,4 @@ This should return something like this:
  "foobar@gmail.com"=>"Foo Bar",
 }
 ```
+Note: it will return the emails for any commits made to the user's repos.  These are not neccesarily that user's email addresses. 

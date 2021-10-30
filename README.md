@@ -5,15 +5,13 @@ This is a simple Ruby script using the GitHub API.  It will iterate through a us
 This currently does not involve API authentication, so it is subject to rate limits.  This is still useful for scanning one or two users before the rate limit is reached.
 
 To use the script, you will need to have Ruby installed.  From the root directory, run the following:
-```shell
+```shellCancel changes
 ruby git-emails.rb <GitHub username>
 ```
 
 This should return something like this:
 ```ruby
-{
- "foo@bar.com"=>"Foo Bar",
- "foobar@gmail.com"=>"Foo Bar",
-}
+{"foo@bar.com"=>"Foo Bar",
+ "foobar@gmail.com"=>"Foo Bar"}
 ```
 Note: it will return the emails for any commits made to the user's repos.  These are not neccesarily that user's email addresses. 

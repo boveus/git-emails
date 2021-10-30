@@ -1,6 +1,7 @@
 require 'json'
 require 'uri'
 require 'pry'
+require 'pp'
 require 'net/http'
 
 user = ARGV[0].to_s
@@ -29,4 +30,4 @@ else
     puts "Error making request"
 end
 
-puts emails
+pp emails

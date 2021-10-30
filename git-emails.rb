@@ -29,6 +29,4 @@ else
     puts "Error making request"
 end
 
-binding.pry 
-
 puts emails
